@@ -1,0 +1,42 @@
+body,
+html {
+  margin: 0;
+  font-size: 12px;
+  color: white;
+}
+
+.outer {
+  background-color: red;
+  padding-top: 30px;
+  height: 100vh;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.inner {
+  width: 50vw;
+  height: 50%;
+  background-color: blue;
+  font-size: 3em;
+  text-align: center;
+  margin: 0 auto;
+  padding: 0;
+  border-radius: 10px;
+}
+
+.navbar {
+  background-color: red;
+  height: 50px;
+}
+
+.banner {
+  height: calc(100vh - 50px);
+  background-color: green;
+}
+
+.outer-with-image {
+  background: url(https://cdn.pixabay.com/photo/2020/10/29/13/34/table-5696243_960_720.jpg);
+  height: 100vh;
+  padding-top: 50px;
+  box-sizing: border-box;
+}
